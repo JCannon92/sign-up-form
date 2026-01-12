@@ -50,18 +50,18 @@ body {
     margin: 60px;
 }
 
-.main form {
-    width: 70%;
-}
-
 .main .form-decorator {
     display: flex;
     flex-wrap: wrap;
+    width: 70%;
     margin: 100px 60px;
+    padding: 50px;
+    background-color: antiquewhite;
 }
 
 .form-decorator > h3 {
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .form-decorator > p {
@@ -73,12 +73,18 @@ body {
 .form-decorator > p > label {
     width: 70%;
     margin-bottom: 2px;
+    font-size: 13px;
+    font-weight: bold;
 } 
 
 .form-decorator > p > input {
     width: 70%;
-    height: 20px;
+    height: 25px;
     margin-top: 2px;
-
 }
+
+input:focus {
+    box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
 
