@@ -14,28 +14,71 @@ img#icon {
 body {
     display: flex;
     font-family: "Figtree";
+    margin: 0;
+    overflow: hidden;
 }
 
 /*Title Section*/
 
 .title {
-    width: 33%;
+    width: calc(100%/3);
 }
 
 .title-banner {
     position: absolute;
     top: 100px;
-    left: 150px;
+    width: calc(100%/3);
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .title-banner > h1 {
     margin: 0 0 0 10px;
     color: antiquewhite;
-    font-size: 45px;;
+    font-size: 45px;
 }
 
 /*Main Section*/
 
+.main {
+    width: calc(200%/3);
+}
+
+.main h2 {
+    margin: 60px;
+}
+
+.main form {
+    width: 70%;
+}
+
+.main .form-decorator {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 60px;
+}
+
+.form-decorator > h3 {
+    width: 100%;
+}
+
+.form-decorator > p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.form-decorator > p > label {
+    width: 70%;
+    margin-bottom: 2px;
+} 
+
+.form-decorator > p > input {
+    width: 70%;
+    height: 20px;
+    margin-top: 2px;
+
+}
 
