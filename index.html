@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    </style>
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -18,7 +18,39 @@
         </div>
     </section>
     <section class="main">
-        
+        <h2>Ever wanted to know the location of various birds? Well this here is an app that'll do just that.</h2>
+        <h2>Sign up here to find those birds.</h2>
+        <form>
+            <div class="form-decorator">
+                <h3>Just need some deets...</h3>
+                <p>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name">
+                </p>
+                <p>
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name">
+                </p>
+                <p>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email">
+                </p>
+                <p>
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" name="phone-number">
+                </p>
+                <p>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password">
+                </p>
+                <p>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password">
+                </p>
+            </div>
+            <button>Create Account</button>
+            <p>Already hae an account? <a href="/log-in.html">Log in</a></p>
+        </form>
     </section>
 </body>
 </html>
